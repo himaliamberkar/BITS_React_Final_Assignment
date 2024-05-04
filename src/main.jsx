@@ -35,6 +35,14 @@ const router = createBrowserRouter([
   },
   {
     path: "/DashBoard",
+    loader: () => {
+      let item = localStorage.getItem("isAuthenticated");
+      console.log("item", item);
+      if (item !== "authenticated") {
+        return redirect("/");
+      }
+      return null;
+    },
     element: (
       <>
         <NavBar />

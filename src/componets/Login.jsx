@@ -10,6 +10,7 @@ const Login = () => {
   const navigator = useNavigate();
   const [authData, setAuthData] = useState({ email: "", password: "" });
   const [isChanged, setIsChanged] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

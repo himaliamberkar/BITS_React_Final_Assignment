@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => { 
   const navigate = useNavigate()
   const handleLogout =()=>{
+    localStorage.removeItem("isAuthenticated");
     navigate('/')
   }
     return (
