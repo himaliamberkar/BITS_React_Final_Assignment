@@ -1,0 +1,33 @@
+/* src/App.css
+
+/* Reset default margin and padding */
+/* body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.button {
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}  */
