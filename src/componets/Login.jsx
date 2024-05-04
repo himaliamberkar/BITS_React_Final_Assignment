@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const data = { email: "user1@example.com", password: "admin@123" };
+const data = { email: "himali@gmail.com", password: "xyz@123" };
 
 const Login = () => {
   const navigator = useNavigate();
